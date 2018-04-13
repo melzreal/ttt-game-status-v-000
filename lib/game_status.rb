@@ -42,10 +42,11 @@ end
 def winner(board)
 #if the index returned by won includes all X then x won and vice versa
     index = won?(board)
-    
-    if board[index]=="X"
+
+    if board[index]==["X","X","X"]
       return "X"
-    else board[index]=="O"
+    elsif board[index]==["O","O","O"]
       return "O"
-    end
+    else
+      return nil
 end
