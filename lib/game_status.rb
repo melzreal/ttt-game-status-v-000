@@ -40,6 +40,6 @@ end
 
 def winner(board)
  !won?(board)
-    return nil
+     nil
 
 end
